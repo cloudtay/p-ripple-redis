@@ -1,0 +1,21 @@
+{
+  "name": "cclilshy/p-ripple-redis",
+  "autoload": {
+    "psr-4": {
+      "Cclilshy\\PRipple\\Redis\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cclilshy",
+      "email": "jingnigg@gmail.com"
+    }
+  ],
+  "require": {
+    "cclilshy/p-ripple": "dev-main",
+    "ext-redis": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
