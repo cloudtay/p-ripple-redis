@@ -13,9 +13,10 @@
     }
   ],
   "require": {
-    "cclilshy/p-ripple": "dev-main",
+    "cclilshy/p-ripple": "*",
     "ext-redis": "*"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "version": "v1.0.0"
 }
