@@ -41,8 +41,8 @@
 namespace Cclilshy\PRipple\Redis\Facade;
 
 use Cclilshy\PRipple\Redis\RedisClient as RedisClientWorker;
-use Core\Standard\FacadeStd;
-use Core\Standard\WorkerInterface;
+use Cclilshy\PRipple\Core\Standard\FacadeStd;
+use Cclilshy\PRipple\Core\Standard\WorkerInterface;
 use Redis as RedisNative;
 use function call_user_func_array;
 

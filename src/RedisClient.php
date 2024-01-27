@@ -39,13 +39,12 @@
 
 namespace Cclilshy\PRipple\Redis;
 
+use Cclilshy\PRipple\Core\Output;
+use Cclilshy\PRipple\Core\Standard\WorkerInterface;
 use Cclilshy\PRipple\Redis\Facade\RedisClient as RedisFacade;
-use Core\Output;
-use Core\Standard\WorkerInterface;
+use Cclilshy\PRipple\Worker\Worker;
 use Redis;
 use RedisException;
-use Worker\Worker;
-
 
 /**
  * Redis管理器
