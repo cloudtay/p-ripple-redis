@@ -41,8 +41,9 @@
 namespace Cclilshy\PRipple\Redis\Facade;
 
 use Cclilshy\PRipple\Redis\RedisClient as RedisClientWorker;
-use Cclilshy\PRipple\Core\Standard\FacadeStd;
 use Cclilshy\PRipple\Core\Standard\WorkerInterface;
+use Cclilshy\PRipple\Core\Standard\WorkerFacadeStd;
+
 use Redis as RedisNative;
 use function call_user_func_array;
 
@@ -50,7 +51,7 @@ use function call_user_func_array;
  * @method static void addClient(array $config, string|null $name = 'default')
  * @method static RedisNative|null getClient(string $name = 'default')
  */
-final class RedisClient implements FacadeStd
+final class RedisClient implements WorkerFacadeStd
 {
     /**
      * @var WorkerInterface $instance
